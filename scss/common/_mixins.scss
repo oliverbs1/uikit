@@ -1,0 +1,7 @@
+@mixin top($top) {
+    top: $top;
+}
+
+@mixin left($left) {
+    left: $left;
+}

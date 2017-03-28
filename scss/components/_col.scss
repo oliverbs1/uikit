@@ -1,0 +1,912 @@
+.iphone {
+    width: 30px;
+    position: absolute;
+    top: 65px;
+    left: 120px;
+}
+
+.col {
+    position: absolute;
+    @include top(200px);
+    @include left(120px);
+    width: 250px;
+    height: 100px;
+}
+
+.col2 {
+    position: absolute;
+    @include top(200px);
+    @include left(413px);
+    width: 250px;
+    height: 100px;
+}
+
+.col3 {
+    position: absolute;
+    @include top(200px);
+    @include left(708px);
+    width: 250px;
+    height: 100px;
+}
+
+.col4 {
+    position: absolute;
+    @include top(200px);
+    @include left(1000px);
+    width: 250px;
+    height: 100px;
+}
+
+.but {
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.text {
+    height: 32px;
+}
+
+.search {
+    margin-top: 14px;
+}
+
+.text2 {
+    margin-top: 15px;
+    height: 113px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.but1 {
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top: 15px;
+    float: right;
+}
+
+.but2 {
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top: 15px;
+    float: left;
+}
+
+.sel {
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.sel2 {
+    position: absolute;
+    top: 152px;
+    left: 0;
+}
+
+.uno {
+    width: 31px;
+    height: 30px;
+    border: 1px solid white;
+    position: absolute;
+    top: 172px;
+    left: 135px;
+    border-radius: 64px;
+}
+
+.rond {
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    font-size: 13px;
+}
+
+.vente {
+    left: 175px;
+}
+
+.cent {
+    left: 216px;
+}
+
+.car {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+    position: absolute;
+    top: 239px;
+    left: 225px;
+}
+
+.val {
+    top: 281px;
+    background-color: #26b8f0;
+}
+
+.val img {
+    width: 17px;
+    margin: 5px;
+}
+
+.ro {
+    top: 326px;
+    border-radius: 13px;
+}
+
+.rro {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: white;
+    margin: 6px;
+}
+
+.star {
+    position: absolute;
+    top: 424px;
+    left: 134px;
+}
+
+.heart {
+    top: 455px;
+}
+
+.star img {
+    width: 20px;
+}
+
+.moin {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 424px;
+}
+
+.plus {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 424px;
+    left: 31px;
+}
+
+.fois {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 424px;
+    left: 61px;
+}
+
+.supe {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 424px;
+    left: 91px;
+}
+
+.info {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 455px;
+}
+
+.valide {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 455px;
+    left: 31px;
+}
+
+.point {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 455px;
+    left: 61px;
+}
+
+.hh {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 455px;
+    left: 91px;
+}
+
+.info p {
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    left: 7px;
+    top: 2px;
+}
+
+.point p {
+    color: white;
+    position: absolute;
+    left: 3px;
+    top: -2px;
+}
+
+.hh img {
+    width: 13px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+
+.valide img {
+    width: 13px;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+
+.supe p {
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 6px;
+}
+
+.fois img {
+    width: 12px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.plus p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: -1px;
+    left: 4px;
+}
+
+.moin p {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    top: -2px;
+    left: 6px;
+}
+
+.ron {
+    top: 370px;
+    border-radius: 13px;
+    background-color: #26b8f0;
+}
+
+.behance {
+    width: 47px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    position: absolute;
+    top: 109px;
+}
+
+.behance img {
+    width: 31px;
+    padding: 10px 0 0 9px;
+}
+
+.twitter {
+    left: 67px;
+}
+
+.fb {
+    left: 134px;
+}
+
+.teh {
+    left: 201px;
+}
+
+.fb img {
+    width: 12px;
+    padding: 8px 0 0 18px;
+}
+
+.teh img {
+    width: 12px;
+    padding: 8px 0 0 18px;
+}
+
+.oops {
+    width: 250px;
+    height: 44px;
+    background-color: white;
+    position: absolute;
+    top: 564px;
+}
+
+.oops p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #00aced;
+    padding: 13px;
+}
+
+.oops img {
+    width: 18px;
+    position: absolute;
+    top: 12px;
+    left: 220px
+}
+
+.sel2:hover,
+.ju:hover,
+.but1:hover {
+    background-color: white;
+    color: #00aced;
+}
+
+.city {
+    margin-top: 15px;
+    padding: 0 0 10px 10px;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.city:hover {
+    background-color: #40c1f2;
+}
+
+.barv {
+    width: 15px;
+    position: absolute;
+    top: 414px;
+    left: 230px;
+}
+
+.la {
+    width: 16px;
+    position: absolute;
+    top: 496px;
+    left: 225px;
+}
+
+.sup {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 452px;
+    left: 230px;
+}
+
+.cc {
+    border-bottom: none;
+}
+
+.calendar {
+    width: 250px;
+    position: absolute;
+    top: 232px;
+}
+
+.menu {
+    position: absolute;
+    top: 514px;
+    left: 7px;
+}
+
+.menu img {
+    width: 9px;
+    float: left;
+}
+
+.menu p {
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+    float: left;
+    padding-right: 8px;
+    padding-left: 4px;
+}
+
+.conv {
+    position: absolute;
+    top: 554px;
+}
+
+.conv img {
+    width: 14px;
+    float: left;
+}
+
+.hea {
+    left: 50px;
+}
+
+.sta {
+    top: 584px;
+}
+
+.conv p {
+    color: white;
+    float: left;
+    padding-left: 4px;
+}
+
+.in {
+    top: 584px;
+    left: 54px;
+}
+
+.in img {
+    width: 4px;
+    padding-right: 7px;
+}
+
+.hour {
+    position: absolute;
+    top: 556px;
+    left: 102px;
+}
+
+.houre {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.houre p {
+    font-size: 26px;
+    color: white;
+    margin: 7px;
+}
+
+.poi {
+    position: absolute;
+    top: 13px;
+    left: 43px;
+    color: white;
+}
+
+.poi2 {
+    left: 92px;
+}
+
+.min {
+    position: absolute;
+    top: 0;
+    left: 49px
+}
+
+.sec {
+    left: 97px;
+}
+
+.pager {
+    width: 250px;
+    position: absolute;
+    top: 628px;
+}
+
+.audio {
+    width: 250px;
+    position: absolute;
+    top: 867px;
+}
+
+.chart {
+    width: 250px;
+    position: absolute;
+    top: 1025px;
+}
+
+.chart2 {
+    width: 250px;
+    position: absolute;
+    top: 970px;
+}
+
+.arraycity {
+    position: absolute;
+    width: 205px;
+    top: 232px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.for {
+    top: 628px;
+    width: 250px;
+}
+
+.for input {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 238px;
+    height: 33px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.carre {
+    width: 250px;
+    border: 1px dashed white;
+    height: 250px;
+    border-radius: 8px;
+    position: absolute;
+    top: 850px;
+}
+
+.carre p {
+    font-size: 20px;
+    color: white;
+    padding: 141px 0 0 91px;
+}
+
+.carre img {
+    position: absolute;
+    top: 78px;
+    left: 103px;
+    width: 35px;
+}
+
+.first {
+    width: 250px;
+    border-top: 2px solid #40c1f2;
+}
+
+.first1 {
+    border: 1px solid white;
+    width: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.s1 {
+    width: 125px;
+    top: 23px;
+}
+
+.s2 {
+    width: 200px;
+    top: 46px;
+}
+
+.s3 {
+    width: 240px;
+    top: 69px;
+}
+
+.second {
+    width: 250px;
+    border-top: 2px solid #40c1f2;
+    margin-top: 21px;
+}
+
+.june {
+    position: absolute;
+    top: 154px;
+}
+
+.june1 {
+    margin-right: 10px;
+}
+
+.delete {
+    width: 63px;
+    position: absolute;
+    top: 354px;
+    left: 187px;
+    height: 42px;
+    background-color: white;
+}
+
+.delete p {
+    color: #00aced;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.mm {
+    top: 582px;
+    left: 223px;
+}
+
+.ii {
+    top: 537px;
+    left: 223px;
+}
+
+.play {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 638px;
+}
+
+.play img {
+    width: 15px;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+.pause {
+    left: 52px;
+}
+
+.pause img {
+    position: absolute;
+    left: 12px;
+}
+
+.stop {
+    left: 103px;
+}
+
+.stop img {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.infoplayer {
+    left: 156px;
+}
+
+.infoplayer img {
+    width: 6px;
+    left: 17px;
+}
+
+.alea {
+    left: 207px;
+}
+
+.alea p {
+    font-size: 23px;
+    color: white;
+    padding: 9px 0 0 14px;
+}
+
+.date {
+    position: absolute;
+    top: 703px;
+}
+
+.day {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.now {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 30px;
+    height: 44px;
+    padding: 16px;
+    position: absolute;
+    top: 58px;
+}
+
+.now1 {
+    left: 63px;
+}
+
+.now2 {
+    left: 126px;
+}
+
+.now3 {
+    left: 189px;
+}
+
+.now p {
+    color: white;
+    position: absolute;
+    top: 47px;
+    left: 21px;
+}
+
+.date img {
+    width: 217px;
+    margin-left: 17px;
+    margin-top: 25px;
+}
+
+.month {
+    color: white;
+    font-size: 17px;
+}
+
+.graph {
+    position: absolute;
+    top: 1024px;
+    width: 271px;
+}
+
+.manyButton {
+    border: 1px solid white;
+    width: 250px;
+    height: 97px;
+    border-radius: 5%;
+    margin-top: 25px;
+    padding: 10px;
+    position: absolute;
+    top: 842px;
+}
+
+.buttonInsideM {
+    display: inline-block;
+    width: 28%;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#sizeDifferent {
+    width: 40%;
+}
+
+.some {
+    display: inline-block;
+    float: left;
+}
+
+#imgSize17 {
+    width: 22%;
+    float: right;
+}
+
+#imgSize18 {
+    width: 15%;
+    float: right;
+}
+
+#tagsPadding {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quick {
+    position: absolute;
+    top: 280px;
+}
+
+.quick p {
+    margin-bottom: 18px;
+    color: white;
+}
+
+.p1 {
+    font-size: 29px;
+}
+
+.p2 {
+    font-size: 26px;
+}
+
+.p3 {
+    font-size: 23px;
+}
+
+.p4 {
+    font-size: 20px;
+}
+
+.p5 {
+    font-size: 17px;
+}
+
+.p6 {
+    font-size: 15px;
+}
+
+.duis p {
+    line-height: 25px;
+    position: absolute;
+    top: 513px;
+    font-size: 16px;
+    color: #f0eeee;
+}
+
+.volume {
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: -9px;
+    left: 40px;
+}
+
+.sec1 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.sec2 {
+    width: 190px;
+    top: -2px;
+}
+
+.volume2 {
+    top: -12px;
+    left: 183px;
+}
+
+.number {
+    position: absolute;
+    top: -36px;
+    left: 0;
+}
+
+.number li {
+    display: inline-block;
+    color: #80d6f6;
+    margin-left: 38px;
+}
+
+.number li:hover {
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+footer {
+    background-color: map-get($colors, fond);
+    height: 50px;
+}

@@ -1,0 +1,1127 @@
+/* line 5, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../private/var/folders/31/hsxbdgl11wqbvf44qys7jsq00000gn/T/AppTranslocation/83DF1A0B-D358-4FB0-8990-9F8F1121B6CA/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/components/_col.scss */
+.iphone {
+  width: 30px;
+  position: absolute;
+  top: 65px;
+  left: 120px;
+}
+
+/* line 8, ../scss/components/_col.scss */
+.col {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  width: 250px;
+  height: 100px;
+}
+
+/* line 16, ../scss/components/_col.scss */
+.col2 {
+  position: absolute;
+  top: 200px;
+  left: 413px;
+  width: 250px;
+  height: 100px;
+}
+
+/* line 24, ../scss/components/_col.scss */
+.col3 {
+  position: absolute;
+  top: 200px;
+  left: 708px;
+  width: 250px;
+  height: 100px;
+}
+
+/* line 32, ../scss/components/_col.scss */
+.col4 {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  width: 250px;
+  height: 100px;
+}
+
+/* line 40, ../scss/components/_col.scss */
+.but {
+  width: 250px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-size: 15px;
+}
+
+/* line 50, ../scss/components/_col.scss */
+.text {
+  height: 32px;
+}
+
+/* line 54, ../scss/components/_col.scss */
+.search {
+  margin-top: 14px;
+}
+
+/* line 58, ../scss/components/_col.scss */
+.text2 {
+  margin-top: 15px;
+  height: 113px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* line 65, ../scss/components/_col.scss */
+.but1 {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-top: 15px;
+  float: right;
+}
+
+/* line 77, ../scss/components/_col.scss */
+.but2 {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-top: 15px;
+  float: left;
+}
+
+/* line 89, ../scss/components/_col.scss */
+.sel {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* line 100, ../scss/components/_col.scss */
+.sel2 {
+  position: absolute;
+  top: 152px;
+  left: 0;
+}
+
+/* line 106, ../scss/components/_col.scss */
+.uno {
+  width: 31px;
+  height: 30px;
+  border: 1px solid white;
+  position: absolute;
+  top: 172px;
+  left: 135px;
+  border-radius: 64px;
+}
+
+/* line 116, ../scss/components/_col.scss */
+.rond {
+  text-align: center;
+  padding-top: 7px;
+  color: white;
+  font-size: 13px;
+}
+
+/* line 123, ../scss/components/_col.scss */
+.vente {
+  left: 175px;
+}
+
+/* line 127, ../scss/components/_col.scss */
+.cent {
+  left: 216px;
+}
+
+/* line 131, ../scss/components/_col.scss */
+.car {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 4px;
+  position: absolute;
+  top: 239px;
+  left: 225px;
+}
+
+/* line 141, ../scss/components/_col.scss */
+.val {
+  top: 281px;
+  background-color: #26b8f0;
+}
+
+/* line 146, ../scss/components/_col.scss */
+.val img {
+  width: 17px;
+  margin: 5px;
+}
+
+/* line 151, ../scss/components/_col.scss */
+.ro {
+  top: 326px;
+  border-radius: 13px;
+}
+
+/* line 156, ../scss/components/_col.scss */
+.rro {
+  width: 13px;
+  height: 13px;
+  border-radius: 13px;
+  background-color: white;
+  margin: 6px;
+}
+
+/* line 164, ../scss/components/_col.scss */
+.star {
+  position: absolute;
+  top: 424px;
+  left: 134px;
+}
+
+/* line 170, ../scss/components/_col.scss */
+.heart {
+  top: 455px;
+}
+
+/* line 174, ../scss/components/_col.scss */
+.star img {
+  width: 20px;
+}
+
+/* line 178, ../scss/components/_col.scss */
+.moin {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 424px;
+}
+
+/* line 187, ../scss/components/_col.scss */
+.plus {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 424px;
+  left: 31px;
+}
+
+/* line 197, ../scss/components/_col.scss */
+.fois {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 424px;
+  left: 61px;
+}
+
+/* line 207, ../scss/components/_col.scss */
+.supe {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 424px;
+  left: 91px;
+}
+
+/* line 217, ../scss/components/_col.scss */
+.info {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 455px;
+}
+
+/* line 226, ../scss/components/_col.scss */
+.valide {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 455px;
+  left: 31px;
+}
+
+/* line 236, ../scss/components/_col.scss */
+.point {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 455px;
+  left: 61px;
+}
+
+/* line 246, ../scss/components/_col.scss */
+.hh {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 455px;
+  left: 91px;
+}
+
+/* line 256, ../scss/components/_col.scss */
+.info p {
+  color: white;
+  font-size: 19px;
+  position: absolute;
+  left: 7px;
+  top: 2px;
+}
+
+/* line 264, ../scss/components/_col.scss */
+.point p {
+  color: white;
+  position: absolute;
+  left: 3px;
+  top: -2px;
+}
+
+/* line 271, ../scss/components/_col.scss */
+.hh img {
+  width: 13px;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+}
+
+/* line 278, ../scss/components/_col.scss */
+.valide img {
+  width: 13px;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+}
+
+/* line 285, ../scss/components/_col.scss */
+.supe p {
+  color: white;
+  position: absolute;
+  top: 1px;
+  left: 6px;
+}
+
+/* line 292, ../scss/components/_col.scss */
+.fois img {
+  width: 12px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+/* line 299, ../scss/components/_col.scss */
+.plus p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: -1px;
+  left: 4px;
+}
+
+/* line 307, ../scss/components/_col.scss */
+.moin p {
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: -2px;
+  left: 6px;
+}
+
+/* line 315, ../scss/components/_col.scss */
+.ron {
+  top: 370px;
+  border-radius: 13px;
+  background-color: #26b8f0;
+}
+
+/* line 321, ../scss/components/_col.scss */
+.behance {
+  width: 47px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 4px;
+  position: absolute;
+  top: 109px;
+}
+
+/* line 330, ../scss/components/_col.scss */
+.behance img {
+  width: 31px;
+  padding: 10px 0 0 9px;
+}
+
+/* line 335, ../scss/components/_col.scss */
+.twitter {
+  left: 67px;
+}
+
+/* line 339, ../scss/components/_col.scss */
+.fb {
+  left: 134px;
+}
+
+/* line 343, ../scss/components/_col.scss */
+.teh {
+  left: 201px;
+}
+
+/* line 347, ../scss/components/_col.scss */
+.fb img {
+  width: 12px;
+  padding: 8px 0 0 18px;
+}
+
+/* line 352, ../scss/components/_col.scss */
+.teh img {
+  width: 12px;
+  padding: 8px 0 0 18px;
+}
+
+/* line 357, ../scss/components/_col.scss */
+.oops {
+  width: 250px;
+  height: 44px;
+  background-color: white;
+  position: absolute;
+  top: 564px;
+}
+
+/* line 365, ../scss/components/_col.scss */
+.oops p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #00aced;
+  padding: 13px;
+}
+
+/* line 372, ../scss/components/_col.scss */
+.oops img {
+  width: 18px;
+  position: absolute;
+  top: 12px;
+  left: 220px;
+}
+
+/* line 379, ../scss/components/_col.scss */
+.sel2:hover,
+.ju:hover,
+.but1:hover {
+  background-color: white;
+  color: #00aced;
+}
+
+/* line 386, ../scss/components/_col.scss */
+.city {
+  margin-top: 15px;
+  padding: 0 0 10px 10px;
+  font-size: 17px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* line 394, ../scss/components/_col.scss */
+.city:hover {
+  background-color: #40c1f2;
+}
+
+/* line 398, ../scss/components/_col.scss */
+.barv {
+  width: 15px;
+  position: absolute;
+  top: 414px;
+  left: 230px;
+}
+
+/* line 405, ../scss/components/_col.scss */
+.la {
+  width: 16px;
+  position: absolute;
+  top: 496px;
+  left: 225px;
+}
+
+/* line 412, ../scss/components/_col.scss */
+.sup {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 452px;
+  left: 230px;
+}
+
+/* line 420, ../scss/components/_col.scss */
+.cc {
+  border-bottom: none;
+}
+
+/* line 424, ../scss/components/_col.scss */
+.calendar {
+  width: 250px;
+  position: absolute;
+  top: 232px;
+}
+
+/* line 430, ../scss/components/_col.scss */
+.menu {
+  position: absolute;
+  top: 514px;
+  left: 7px;
+}
+
+/* line 436, ../scss/components/_col.scss */
+.menu img {
+  width: 9px;
+  float: left;
+}
+
+/* line 441, ../scss/components/_col.scss */
+.menu p {
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+  float: left;
+  padding-right: 8px;
+  padding-left: 4px;
+}
+
+/* line 450, ../scss/components/_col.scss */
+.conv {
+  position: absolute;
+  top: 554px;
+}
+
+/* line 455, ../scss/components/_col.scss */
+.conv img {
+  width: 14px;
+  float: left;
+}
+
+/* line 460, ../scss/components/_col.scss */
+.hea {
+  left: 50px;
+}
+
+/* line 464, ../scss/components/_col.scss */
+.sta {
+  top: 584px;
+}
+
+/* line 468, ../scss/components/_col.scss */
+.conv p {
+  color: white;
+  float: left;
+  padding-left: 4px;
+}
+
+/* line 474, ../scss/components/_col.scss */
+.in {
+  top: 584px;
+  left: 54px;
+}
+
+/* line 479, ../scss/components/_col.scss */
+.in img {
+  width: 4px;
+  padding-right: 7px;
+}
+
+/* line 484, ../scss/components/_col.scss */
+.hour {
+  position: absolute;
+  top: 556px;
+  left: 102px;
+}
+
+/* line 490, ../scss/components/_col.scss */
+.houre {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+/* line 497, ../scss/components/_col.scss */
+.houre p {
+  font-size: 26px;
+  color: white;
+  margin: 7px;
+}
+
+/* line 503, ../scss/components/_col.scss */
+.poi {
+  position: absolute;
+  top: 13px;
+  left: 43px;
+  color: white;
+}
+
+/* line 510, ../scss/components/_col.scss */
+.poi2 {
+  left: 92px;
+}
+
+/* line 514, ../scss/components/_col.scss */
+.min {
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+
+/* line 520, ../scss/components/_col.scss */
+.sec {
+  left: 97px;
+}
+
+/* line 524, ../scss/components/_col.scss */
+.pager {
+  width: 250px;
+  position: absolute;
+  top: 628px;
+}
+
+/* line 530, ../scss/components/_col.scss */
+.audio {
+  width: 250px;
+  position: absolute;
+  top: 867px;
+}
+
+/* line 536, ../scss/components/_col.scss */
+.chart {
+  width: 250px;
+  position: absolute;
+  top: 1025px;
+}
+
+/* line 542, ../scss/components/_col.scss */
+.chart2 {
+  width: 250px;
+  position: absolute;
+  top: 970px;
+}
+
+/* line 548, ../scss/components/_col.scss */
+.arraycity {
+  position: absolute;
+  width: 205px;
+  top: 232px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+/* line 556, ../scss/components/_col.scss */
+.for {
+  top: 628px;
+  width: 250px;
+}
+
+/* line 561, ../scss/components/_col.scss */
+.for input {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 238px;
+  height: 33px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+/* line 573, ../scss/components/_col.scss */
+.carre {
+  width: 250px;
+  border: 1px dashed white;
+  height: 250px;
+  border-radius: 8px;
+  position: absolute;
+  top: 850px;
+}
+
+/* line 582, ../scss/components/_col.scss */
+.carre p {
+  font-size: 20px;
+  color: white;
+  padding: 141px 0 0 91px;
+}
+
+/* line 588, ../scss/components/_col.scss */
+.carre img {
+  position: absolute;
+  top: 78px;
+  left: 103px;
+  width: 35px;
+}
+
+/* line 595, ../scss/components/_col.scss */
+.first {
+  width: 250px;
+  border-top: 2px solid #40c1f2;
+}
+
+/* line 600, ../scss/components/_col.scss */
+.first1 {
+  border: 1px solid white;
+  width: 50px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 607, ../scss/components/_col.scss */
+.s1 {
+  width: 125px;
+  top: 23px;
+}
+
+/* line 612, ../scss/components/_col.scss */
+.s2 {
+  width: 200px;
+  top: 46px;
+}
+
+/* line 617, ../scss/components/_col.scss */
+.s3 {
+  width: 240px;
+  top: 69px;
+}
+
+/* line 622, ../scss/components/_col.scss */
+.second {
+  width: 250px;
+  border-top: 2px solid #40c1f2;
+  margin-top: 21px;
+}
+
+/* line 628, ../scss/components/_col.scss */
+.june {
+  position: absolute;
+  top: 154px;
+}
+
+/* line 633, ../scss/components/_col.scss */
+.june1 {
+  margin-right: 10px;
+}
+
+/* line 637, ../scss/components/_col.scss */
+.delete {
+  width: 63px;
+  position: absolute;
+  top: 354px;
+  left: 187px;
+  height: 42px;
+  background-color: white;
+}
+
+/* line 646, ../scss/components/_col.scss */
+.delete p {
+  color: #00aced;
+  text-align: center;
+  padding-top: 11px;
+}
+
+/* line 652, ../scss/components/_col.scss */
+.mm {
+  top: 582px;
+  left: 223px;
+}
+
+/* line 657, ../scss/components/_col.scss */
+.ii {
+  top: 537px;
+  left: 223px;
+}
+
+/* line 662, ../scss/components/_col.scss */
+.play {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 30px;
+  position: absolute;
+  top: 638px;
+}
+
+/* line 671, ../scss/components/_col.scss */
+.play img {
+  width: 15px;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
+/* line 678, ../scss/components/_col.scss */
+.pause {
+  left: 52px;
+}
+
+/* line 682, ../scss/components/_col.scss */
+.pause img {
+  position: absolute;
+  left: 12px;
+}
+
+/* line 687, ../scss/components/_col.scss */
+.stop {
+  left: 103px;
+}
+
+/* line 691, ../scss/components/_col.scss */
+.stop img {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+/* line 697, ../scss/components/_col.scss */
+.infoplayer {
+  left: 156px;
+}
+
+/* line 701, ../scss/components/_col.scss */
+.infoplayer img {
+  width: 6px;
+  left: 17px;
+}
+
+/* line 706, ../scss/components/_col.scss */
+.alea {
+  left: 207px;
+}
+
+/* line 710, ../scss/components/_col.scss */
+.alea p {
+  font-size: 23px;
+  color: white;
+  padding: 9px 0 0 14px;
+}
+
+/* line 716, ../scss/components/_col.scss */
+.date {
+  position: absolute;
+  top: 703px;
+}
+
+/* line 721, ../scss/components/_col.scss */
+.day {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* line 728, ../scss/components/_col.scss */
+.now {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  width: 30px;
+  height: 44px;
+  padding: 16px;
+  position: absolute;
+  top: 58px;
+}
+
+/* line 738, ../scss/components/_col.scss */
+.now1 {
+  left: 63px;
+}
+
+/* line 742, ../scss/components/_col.scss */
+.now2 {
+  left: 126px;
+}
+
+/* line 746, ../scss/components/_col.scss */
+.now3 {
+  left: 189px;
+}
+
+/* line 750, ../scss/components/_col.scss */
+.now p {
+  color: white;
+  position: absolute;
+  top: 47px;
+  left: 21px;
+}
+
+/* line 757, ../scss/components/_col.scss */
+.date img {
+  width: 217px;
+  margin-left: 17px;
+  margin-top: 25px;
+}
+
+/* line 763, ../scss/components/_col.scss */
+.month {
+  color: white;
+  font-size: 17px;
+}
+
+/* line 768, ../scss/components/_col.scss */
+.graph {
+  position: absolute;
+  top: 1024px;
+  width: 271px;
+}
+
+/* line 774, ../scss/components/_col.scss */
+.manyButton {
+  border: 1px solid white;
+  width: 250px;
+  height: 97px;
+  border-radius: 5%;
+  margin-top: 25px;
+  padding: 10px;
+  position: absolute;
+  top: 842px;
+}
+
+/* line 785, ../scss/components/_col.scss */
+.buttonInsideM {
+  display: inline-block;
+  width: 28%;
+  border: 1px solid white;
+  border-radius: 5%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 794, ../scss/components/_col.scss */
+#sizeDifferent {
+  width: 40%;
+}
+
+/* line 798, ../scss/components/_col.scss */
+.some {
+  display: inline-block;
+  float: left;
+}
+
+/* line 803, ../scss/components/_col.scss */
+#imgSize17 {
+  width: 22%;
+  float: right;
+}
+
+/* line 808, ../scss/components/_col.scss */
+#imgSize18 {
+  width: 15%;
+  float: right;
+}
+
+/* line 813, ../scss/components/_col.scss */
+#tagsPadding {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 818, ../scss/components/_col.scss */
+.quick {
+  position: absolute;
+  top: 280px;
+}
+
+/* line 823, ../scss/components/_col.scss */
+.quick p {
+  margin-bottom: 18px;
+  color: white;
+}
+
+/* line 828, ../scss/components/_col.scss */
+.p1 {
+  font-size: 29px;
+}
+
+/* line 832, ../scss/components/_col.scss */
+.p2 {
+  font-size: 26px;
+}
+
+/* line 836, ../scss/components/_col.scss */
+.p3 {
+  font-size: 23px;
+}
+
+/* line 840, ../scss/components/_col.scss */
+.p4 {
+  font-size: 20px;
+}
+
+/* line 844, ../scss/components/_col.scss */
+.p5 {
+  font-size: 17px;
+}
+
+/* line 848, ../scss/components/_col.scss */
+.p6 {
+  font-size: 15px;
+}
+
+/* line 852, ../scss/components/_col.scss */
+.duis p {
+  line-height: 25px;
+  position: absolute;
+  top: 513px;
+  font-size: 16px;
+  color: #f0eeee;
+}
+
+/* line 860, ../scss/components/_col.scss */
+.volume {
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: -9px;
+  left: 40px;
+}
+
+/* line 871, ../scss/components/_col.scss */
+.sec1 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+
+/* line 877, ../scss/components/_col.scss */
+.sec2 {
+  width: 190px;
+  top: -2px;
+}
+
+/* line 882, ../scss/components/_col.scss */
+.volume2 {
+  top: -12px;
+  left: 183px;
+}
+
+/* line 887, ../scss/components/_col.scss */
+.number {
+  position: absolute;
+  top: -36px;
+  left: 0;
+}
+
+/* line 893, ../scss/components/_col.scss */
+.number li {
+  display: inline-block;
+  color: #80d6f6;
+  margin-left: 38px;
+}
+
+/* line 899, ../scss/components/_col.scss */
+.number li:hover {
+  color: white;
+}
+
+/* line 903, ../scss/components/_col.scss */
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+
+/* line 909, ../scss/components/_col.scss */
+footer {
+  background-color: #00aced;
+  height: 50px;
+}
+
+/* line 1, ../scss/templates/_final.scss */
+#back {
+  background-color: #00aced;
+  height: 1350px;
+}
