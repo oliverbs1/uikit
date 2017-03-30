@@ -37,6 +37,29 @@
     height: 100px;
 }
 
+.mobile {
+    font-size: 39px;
+    color: white;
+    position: absolute;
+    top: 63px;
+    left: 159px;
+}
+
+.blueprint {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 67px;
+    left: 369px;
+}
+
+.ver {
+    color: white;
+    position: absolute;
+    top: 105px;
+    left: 160px;
+}
+
 .but {
     width: 250px;
     height: 40px;
@@ -182,6 +205,13 @@
     border-radius: 10px;
     position: absolute;
     top: 424px;
+}
+
+.profil {
+    width: 250px;
+    position: absolute;
+    top: 734px;
+    left: 0;
 }
 
 .plus {
@@ -898,6 +928,13 @@
 
 .number li:hover {
     color: white;
+}
+
+.chat {
+    width: 250px;
+    position: absolute;
+    top: 726px;
+    height: 213px;
 }
 
 footer p {
